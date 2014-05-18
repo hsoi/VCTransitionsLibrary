@@ -20,7 +20,7 @@
     
 }
 
-#define ZOOM_SCALE 0.8
+#define ZOOM_SCALE ((CGFloat)0.8)
 - (void)executeForwardsAnimation:(id<UIViewControllerContextTransitioning>)transitionContext fromVC:(UIViewController *)fromVC toVC:(UIViewController *)toVC fromView:(UIView *)fromView toView:(UIView *)toView {
     
     UIView *containerView = [transitionContext containerView];
